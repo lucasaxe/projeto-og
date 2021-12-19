@@ -1,0 +1,162 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sue+Ellen+Francisco&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap');
+
+/*
+--fonte3: 'Luxurious Roman', cursive;
+--fonte3: 'Sue Ellen Francisco', cursive;
+--fonte3: font-family: 'Odibee Sans', cursive;
+--fonte3: 'Yusei Magic', sans-serif;
+--fonte3: 'Rampart One', cursive;
+--fonte3: 'Sansita Swashed', cursive;
+*/
+
+:root{
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sansita Swashed', cursive;
+    --fonte4: 'Archivo Black', sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+}
+
+html, body {
+    background-color : darkgray;
+    min-height: 100vh;
+    font-family: var(--fonte1)
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1 {
+    padding-top: 30px;
+    font-variant: small-caps;
+    font-family: var(--fonte2);
+    font-size: 5vw;
+    
+}
+
+header > p {
+    padding-bottom: 30px;  
+}
+
+header a, footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header a:hover, footer a:hover {
+    text-decoration: underline;
+}
+
+div.blocoimagem {
+    background-color: rgb(95, 95, 95);
+    color:white;
+    position: relative;
+    height: 20vw;
+}
+
+section {
+
+    line-height: 2em;
+    font-family: var(--fonte3);
+    font-size: 1.3vw;
+}
+
+section.normal{
+    background-color: white;
+    color: black;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+section.imagem{
+    background-color: rgb(95, 95, 95);
+    color:white;
+    box-shadow: inset 6px 6px 12px 0px rgba(0, 0, 0, 0.473);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 20vw;
+}
+
+section.imagem > p {
+    display: inline-block;
+    background-color: rgba(56, 56, 56, 0.466);
+    border-radius: 10px;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.637);
+    position:absolute;
+    width: 55vw;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+}
+
+section#img1 {
+    background-image: url(imagens/gojo/gojo4.jpg);
+    background-position: top center;
+}
+section#img2 {
+    background-image: url(imagens/saitama/saitama1.jpg);
+    background-position: center center;
+}
+section#img3 {
+    background-image: url(imagens/meruem/meruem2.jpg);
+    background-position: center center;
+}
+section#img4 {
+    background-image: url(imagens/kaneki/kaneki1.jpg);
+    background-position: center center;
+}
+section#img5 {
+    background-image: url(imagens/levi/levi1.jpg);
+    background-position: center center;
+}
+section#img6 {
+    background-image: url(imagens/jotaro/jotaro1.jpg);
+    background-position: center center;
+}
+
+p.titulos {
+    text-transform: uppercase;
+    font-size: 5em;
+    font-family: var(--fonte4);
+}
+
+p {
+    text-align: center;
+}
+p > a {
+    text-decoration: none;
+    color: white;
+}
+p > a:hover {
+    color: rgba(255, 255, 255, 0.856)
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+}
+footer > p {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
