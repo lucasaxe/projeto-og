@@ -72,11 +72,7 @@ nav.up {
     padding-top: 10px;
 }
 
-nav.down {
-    background-color: white;
-    box-shadow: 0px 20px 20px rgb(0, 0, 0);
-    padding-bottom: 20px;
-}
+
 
 nav > div {
     position: relative;
@@ -91,12 +87,18 @@ nav > div > a {
     transform: translate(-50%,-50%);
     text-decoration: none;
 
-    padding: 1px;
     margin:auto;
     border-color: white;
-    border-width: 2px;
+    border-width: 0px;
     border-style: solid;
     border-radius: 5px; 
+}
+
+nav > div > a:hover {
+    width: 1.5vw;
+    min-width: 2em;
+    height: 1.5vw;
+    min-height: 2em;
 }
 
 nav > div > a > img {
@@ -115,7 +117,6 @@ div.blocoimagem {
 }
 
 section {
-
     line-height: 2em;
     font-family: var(--fonte3);
     font-size: 2vw;
@@ -135,7 +136,7 @@ section.imagem{
     background-size: cover;
     background-attachment: fixed;
     height: 20vw;
-    font-size: 1.3vw;
+    font-size: 1vw;
 }
 
 section.imagem > p {
@@ -193,7 +194,14 @@ p > a {
     color: white;
 }
 p > a:hover {
-    color: rgba(255, 255, 255, 0.856)
+    color: rgba(255, 255, 255, 0.856);
+    font-size: 1.3em;
+}
+
+nav.down {
+    background-color: white;
+    box-shadow: 0px 20px 20px rgb(0, 0, 0);
+    padding-bottom: 40px;
 }
 
 nav > div > button {
@@ -209,24 +217,43 @@ nav > div > button {
     border-color: #54BCE8;
     border-width: 2px;
     border-style: solid;
-    border-radius: 5px; 
+    border-radius: 25px; 
     box-shadow: 2px 2px 10px #377a97a9;
+    opacity: 50%;
+    
 }
 
-nav > div > img {
-    width: 2vw;
+nav > a {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    border-color: #54BCE8;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 25px; 
+    box-shadow: 2px 2px 10px #377a97a9;
+    opacity: 50%;
+}
+
+nav > a > img {
+    width: 2.5vw;
     min-width: 2em;
-    height: 2vw;
+    height: 2.5vw;
     min-height: 2em;
 }
 
-nav > div > a:hover > img {
-    width: 1.5vw;
-    min-width: 1.5em;
-    height: 1.5vw;
-    min-height: 1.5em;
-
+nav > a:hover {
+    right: 27px;
+    bottom: 25px;
 }
+
+nav > a:hover > img {
+    width: 1.8vw;
+    min-width: 1.6em;
+    height: 1.8vw;
+    min-height: 1.6em;
+}
+
 
 
 footer{
