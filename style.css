@@ -21,7 +21,7 @@
 :root{
     --fonte1: Verdana, Geneva, Tahoma, sans-serif;
     --fonte2: 'Passion One', cursive;
-    --fonte3: 'Sansita Swashed', cursive;
+    --fonte3: 'Yusei Magic', sans-serif;
     --fonte4: 'Archivo Black', sans-serif;
 }
 
@@ -76,7 +76,7 @@ section {
 
     line-height: 2em;
     font-family: var(--fonte3);
-    font-size: 1.3vw;
+    font-size: 2vw;
 }
 
 section.normal{
@@ -93,6 +93,7 @@ section.imagem{
     background-size: cover;
     background-attachment: fixed;
     height: 20vw;
+    font-size: 1.3vw;
 }
 
 section.imagem > p {
@@ -109,7 +110,7 @@ section.imagem > p {
 
 section#img1 {
     background-image: url(imagens/gojo/gojo4.jpg);
-    background-position: top center;
+    background-position: left center;
 }
 section#img2 {
     background-image: url(imagens/saitama/saitama1.jpg);
@@ -129,7 +130,7 @@ section#img5 {
 }
 section#img6 {
     background-image: url(imagens/jotaro/jotaro1.jpg);
-    background-position: center center;
+    background-position: left center;
 }
 
 p.titulos {
