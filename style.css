@@ -32,7 +32,7 @@
 }
 
 html, body {
-    background-color : darkgray;
+    background-color : white;
     min-height: 100vh;
     font-family: var(--fonte1)
 }
@@ -114,7 +114,6 @@ nav > div > p {
     border-width: 0px;
     border-style: solid;
     border-radius: 5px; 
-
 }
 
 nav > div > a:hover {
@@ -162,6 +161,92 @@ section.imagem{
     background-attachment: fixed;
     height: 20vw;
     font-size: 1vw;
+}
+
+div.paginas{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+div.imagempags {
+    display: inline-block;
+    border-radius: 0px 20px 500px 0px;
+    width: 58vw;
+    height: 650px;
+    background-color: white;
+    box-shadow: inset 6px 6px 12px 0px rgba(0, 0, 0, 0.473);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+div.imagempags2 {
+    display: inline-block;
+    border-radius: 400px 0px 0px 20px;
+    width: 58vw;
+    height: 650px;
+    background-color: white;
+    box-shadow: inset 6px 6px 12px 0px rgba(0, 0, 0, 0.473);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+div.frasespags {
+    display: inline-block;
+    width: 40vw;
+    height: 650px;
+    background-color: white;
+    position: relative;
+}
+
+p.frases {
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    text-decoration: none;
+
+    margin:auto;
+    border-color: white;
+    border-width: 0px;
+    border-style: solid;
+    border-radius: 5px; 
+    font-family: var(--fonte3);
+    font-size: 1.3em;
+}
+
+div#gojo1 {
+    background-image: url(imagens/gojo/gojo1.jpg);
+    background-position: right bottom;
+}
+div#gojo2 {
+    background-image: url(imagens/gojo/gojo2.jpg);
+    background-position: center center;
+}
+div#gojo3 {
+    background-image: url(imagens/gojo/gojo3.jpg);
+    background-position: center center;
+}
+div#gojo4 {
+    background-image: url(imagens/gojo/gojo4.jpg);
+    background-position: center center;
+}
+div#gojo5 {
+    background-image: url(imagens/gojo/gojo5.jpg);
+    background-position: center center;
+}
+
+section.imagempags{
+    background-color: rgb(95, 95, 95);
+    color:white;
+    box-shadow: inset 6px 6px 12px 0px rgba(0, 0, 0, 0.473);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 20vw;
+    width: 50%;
+    font-size: 1vw;
+    
 }
 
 
