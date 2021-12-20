@@ -170,8 +170,8 @@ div.paginas{
 
 div.imagempags {
     display: inline-block;
-    border-radius: 0px 20px 500px 0px;
-    width: 58vw;
+    border-radius: 0px 20px 300px 0px;
+    width: 50vw;
     height: 650px;
     background-color: white;
     box-shadow: inset 6px 6px 12px 0px rgba(0, 0, 0, 0.473);
@@ -179,10 +179,15 @@ div.imagempags {
     background-attachment: fixed;
 }
 
+/* 
+border-radius: 0px 20px 500px 0px;
+border-radius: 400px 0px 0px 20px;
+*/
+
 div.imagempags2 {
     display: inline-block;
-    border-radius: 400px 0px 0px 20px;
-    width: 58vw;
+    border-radius: 300px 0px 0px 20px;
+    width: 50vw;
     height: 650px;
     background-color: white;
     box-shadow: inset 6px 6px 12px 0px rgba(0, 0, 0, 0.473);
@@ -194,7 +199,7 @@ div.imagempags2 {
 
 div.frasespags {
     display: inline-block;
-    width: 40vw;
+    width: 48vw;
     height: 650px;
     background-color: white;
     position: relative;
@@ -217,24 +222,45 @@ p.frases {
 }
 
 div#gojo1 {
-    background-image: url(imagens/gojo/gojo1.jpg);
-    background-position: right bottom;
+    background-image: url(imagens/gojo/gojo2.jpg);
+    background-position: right center;
+    background-size: 55%;
+    background-position-x: 0px;
+    background-position-y: 0px;
+    background-repeat: no-repeat;
 }
 div#gojo2 {
-    background-image: url(imagens/gojo/gojo2.jpg);
-    background-position: center center;
+    background-image: url(imagens/gojo/gojo3.jpg);
+    background-position: right center;
+    background-size: 55%;
+    background-position-x: 48vw;
+    background-position-y: 0px;
+    background-repeat: no-repeat;
 }
 div#gojo3 {
-    background-image: url(imagens/gojo/gojo3.jpg);
-    background-position: center center;
+    background-image: url(imagens/gojo/gojo4.jpg);
+    background-position: right center;
+    background-size: 55%;
+    background-position-x: 0px;
+    background-position-y: 0px;
+    background-repeat: no-repeat;
 }
 div#gojo4 {
-    background-image: url(imagens/gojo/gojo4.jpg);
-    background-position: center center;
+    background-image: url(imagens/gojo/gojo5.jpg);
+    background-position: right center;
+    background-size: 55%;
+    background-position-x: 48vw;
+    background-position-y: 0px;
+    background-repeat: no-repeat;
 }
 div#gojo5 {
-    background-image: url(imagens/gojo/gojo5.jpg);
+    background-image: url(imagens/gojo/gojo6.jpg);
     background-position: center center;
+    background-size: 55%;
+    background-position-x: 0px;
+    background-position-y: 0px;
+    background-repeat: no-repeat;
+    
 }
 
 section.imagempags{
